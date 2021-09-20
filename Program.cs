@@ -1,14 +1,19 @@
 ﻿using System;
 
-namespace broini_sistemi
+namespace broini_sistemii
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int chislo = int.Parse(Console.ReadLine());
-            string chislo2 = Convert.ToString(chislo,2);
-            Console.WriteLine("dvuichnoto chislo e " + chislo2);
+            string chislo1 = "1101";
+            string chislo2 = "1111";
+            
+            int chislo5 = Convert.ToInt32(chislo1,2);
+            int chislo6 = Convert.ToInt32(chislo2,2);
+            int chislo3 = chislo6 + chislo5;
+            string chislo4 = Convert.ToString(chislo3, 2);
+            Console.WriteLine(chislo4);
         }
     }
 }
