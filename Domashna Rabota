@@ -1,0 +1,17 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Vuvedete dvoichno chislo");
+		string chislo = Console.ReadLine();
+		Console.WriteLine("Vuvedete desetichno chislo");
+		int chislo1 = int.Parse(Console.ReadLine());
+		int chislo2 = Convert.ToInt32(chislo,2);
+		int chislo3 = chislo1 + chislo2;
+		
+		Console.WriteLine("sborut na chislata v desetichna broina sistema e {0} ",chislo3);
+		
+	}
+}
